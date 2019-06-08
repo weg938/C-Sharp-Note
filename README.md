@@ -1,2 +1,2 @@
-# C sharp class Note
+# C Sharp Class Note
 Personal Note
