@@ -1,0 +1,33 @@
+C# interview questions: 
+
+// Questions are found from https://www.guru99.com/c-sharp-interview-questions.html
+1. What is C#?
+
+    C# (pronounced "See Sharp") is a simple, modern, object-oriented, and type-safe programming language. 
+
+2. What are the types of comment in C# with examples?
+
+    //, /**/, 
+    XML: 
+    '///' input_character*, 
+    '/**' delimited_comment_section* asterisk+ '/'
+    
+3. Can multiple catch blocks be executed? (How try and catch works)
+
+    When an exception is thrown, the common language runtime (CLR) looks for the catch statement that handles this exception. 
+    If the currently executing method does not contain such a catch block, the CLR looks at the method that called the current method, and so on up the call stack. 
+    If no catch block is found, then the CLR displays an unhandled exception message to the user and stops execution of the program.
+    
+4. What is the difference between public, static and void?
+  
+    The public keyword is an access modifier for types and type members. 
+    Public access is the most permissive access level. 
+    There are no restrictions on accessing public members.
+    
+    Use the static modifier to declare a static member, which belongs to the type itself rather than to a specific object. 
+    The static modifier can be used with classes, fields, methods, properties, operators, events, and constructors, 
+    but it cannot be used with indexers, finalizers, or types other than classes. 
+    
+    When used as the return type for a method, void specifies that the method doesn't return a value.
+
+
