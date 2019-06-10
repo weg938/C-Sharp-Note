@@ -46,8 +46,29 @@ C# interview questions:
     Constructors enable the programmer to set default values, limit instantiation, and write code that is flexible and easy to read. 
     
 7. What is Jagged Arrays?
+
     A jagged array is an array whose elements are arrays. 
     The elements of a jagged array can be of different dimensions and sizes. 
     A jagged array is sometimes called an "array of arrays." 
 
+8. What is the difference between ref & out parameters?
+
+    The ref keyword indicates a value that is passed by reference. 
+        In a method signature and in a method call, to pass an argument to a method by reference.
+        In a method signature, to return a value to the caller by reference. 
+        In a member body, to indicate that a reference return value is stored locally as a reference that the caller intends to modify or, in general, a local variable accesses another value by reference. 
+        In a struct declaration to declare a ref struct or a ref readonly struct. 
+    The out keyword causes arguments to be passed by reference. 
+    It makes the formal parameter an alias for the argument, which must be a variable. 
+    In other words, any operation on the parameter is made on the argument. 
+    It is like the ref keyword, except that ref requires that the variable be initialized before it is passed.
+
+9. What is the use of using statement in C#?
+    
+    Provides a convenient syntax that ensures the correct use of IDisposable objects.
+    IDisposable: Provides a mechanism for releasing unmanaged resources.
+
+10. What is serialization?
+    
+    Serialization is the process of converting the state of an object into a form that can be persisted or transported. The complement of serialization is deserialization, which converts a stream into an object. Together, these processes allow data to be easily stored and transferred.
 
